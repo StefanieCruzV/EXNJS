@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Suculents</title>
+</head>
+<body>
+    <div class="firstcontainer">
+        <div class="principalbar flexContainer ">
+            <img  id= "leaf" src="leaf.png" alt="leaf">
+            <h1>EasyBay</h1>
+            <input type="serch" id="search" name="serch" placeholder="Search for anything">
+            <label for="search"><img id="serch"src="search-dark.png" alt=""></label>
+            <a href="siggn">Sign In</a>
+            <img  onclick="displayalert(this)" id = "cardark" src="cart-dark.png" alt="cart">
+        </div>
+        <div class="secondarybar flexContainer">
+            <a class="namesf" href="Aeonium">Aeonium</a>
+            <a class="namesf" href="Andormischus">Andormischus</a>
+            <a class="namesf" href="Agave">Agave</a>
+            <a class="namesf" href="Aloe">Aloe</a>
+            <a class="namesf" href="Aristaloe">Aristaloe</a>
+            <a class="namesf" href="More">More...</a>
+        </div>
+        <div class="maincontent">
+          <h2 class="nametwo">Your Source for Serious Succulent Specialities</h2>
+            <div class="  flexContainer">
+                <div class="mclft  flexContainer" >
+                    <div class="text col">
+                    <p>Discover succulentvaireties one pot or rack at a time</p>
+                    <div class="flex mardiscover" >
+                        <h2>Discover</h2>
+                        <img class="arrow"  src="arrow-light.png" alt="arrow">
+                    </div>
+                    </div>
+                    <img  id="change" onmouseover="changeimg(this)"  onmouseleave="imgorg(this)" src="succulents-1.jpg" alt="Succulent">
+                </div>
+                <div class="mcright">
+                    <img src="aloe-m.jpg" alt="aloe">
+                    <div class="flex" >
+                        <p>Soothing Aloe </p>
+                        <img class="arrow"  src="arrow-light.png" alt="arrow">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="allimages">
+            <div  class="implan flexContainer">
+                <img src="aeonium-s.jpg" alt="Aeonium">
+                <img src="aloe-s.jpg" alt="Aloe">
+                <img src="cactus-s.jpg" alt="Cactus">
+                <img src="echeveria-s.jpg" alt="Echeveria">
+                <img src="sedum-s.jpg" alt="Sedum">
+                <img src="sempervivum-s.jpg" alt="Sempervium">
+            </div>
+            <div class="planames flexContainer">
+                <p>Aeonium</p>
+                <p>Aloe</p>
+                <p>Cactus</p>
+                <p>Echeveria</p>
+                <p>Sedum</p>
+                <p>Sempervium</p>
+            </div>
+        </div> 
+        <div class="alerts flexContainer" id="alerts" >
+            <img class="alertimg" src="alert-dark.png" alt="alert">
+            <p> This site makes use of third-party cookies, by clicking "I accept" you  
+                agree to the terms outlined in our <span> <a href="#">cookie policy</a> </span> </p>
+            <button class="accept"  onclick="accepts(this)"> I accept </button>
+        </div>
+           
+
+    
+<script src="script.js"></script>
+</body>
+</html>
